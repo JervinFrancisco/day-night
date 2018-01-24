@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+    padding: 100px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 200%;
+}
+
+body.day {
+    background-color: blue;
+    color: black;
+}
+
+body.night {
+    background-color: grey;
+    color: black;
+}
+body.night> p{
+     background: linear-gradient(to bottom, #ffffff 0%, #669999 100%);
+}
+body.day>p{
+    background: linear-gradient(to bottom right, red, yellow);
+}
+
+.time {
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Oswald , serif;
+}
+
+.moon{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+    
+}
+/* plus any other CSS you want */
